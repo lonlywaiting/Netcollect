@@ -42,6 +42,10 @@ namespace Netcollect
                 "~/Content/Plugin/Metronic/global/plugins/respond.min.js",
                 "~/Content/Plugin/Metronic/global/plugins/excanvas.min.js",
                 "~/Content/Plugin/Metronic/global/plugins/ie8.fix.min.js"));
+
+            //登录
+            bundles.Add(new StyleBundle("~/Content/LoginCSS").Include(
+                "~/Content/Plugin/Metronic/pages/css/login-3.min.css"));
         }
     }
 }
